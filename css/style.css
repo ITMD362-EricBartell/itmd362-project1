@@ -35,13 +35,14 @@ textarea{
   border: 0;
 }
 #submit:hover{
+  background-color: red;
 }
 /* Tablets */
-@media only screen and (min-width: 768px) {
+/*@media only screen and (min-width: 768px) {
 
-}
+}*/
 /* Desktop */
-@media only screen and (min-width: 992px) {
+/*@media only screen and (min-width: 992px) {
 
-}
+} */
 
