@@ -14,7 +14,7 @@ body{
   padding: 20px;
   border-width: 1px;
   font-size: 32px;
-  font-family: 'Cabin Sketch', sans-serif;
+  font-family: 'Cabin Condensed', sans-serif;
   color: red; 
 }
 #description{
@@ -23,7 +23,7 @@ body{
 
 label{
   font-family: 'Montserrat', sans-serif;
-  color: white;
+  color: black;
 }
 
 input{
