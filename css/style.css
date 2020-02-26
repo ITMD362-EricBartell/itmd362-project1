@@ -1,5 +1,4 @@
 body{
-  background-color: white;
 }
 #inputform{
   background-color: #4e6b9b;
@@ -29,8 +28,18 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
+
+#formbutton:hover{
+  background-color: #47388b;
+}
+
 #description{
-  color: red;
+  color: white;
+  font-style: bold;
+  text-align: center;
+  font-size: 24px; 
+  padding: 4px;
+
 }
 
 label{
@@ -44,7 +53,6 @@ label{
 input{
   border: 0;
   font-family: 'Montserrat', sans-serif;
-  display: block;
   font-size: 14px;  
   margin-left: 250px;  
 }
@@ -53,7 +61,7 @@ input{
   margin-top: 10px;
   border: 0;
   background-color: #6254a2;
-  font-size: 14px;
+  font-size: 32px;
   color: white;
 }
 #submit:hover{
