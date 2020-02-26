@@ -11,9 +11,9 @@ body{
 
 #formbutton{
   cursor:pointer;
-  padding: 2px;
+  padding: 20px;
   border-width: 1px;
-  font-size: 16px;
+  font-size: 32px;
   font-family: 'Cabin Sketch', sans-serif;
   color: red; 
 }
