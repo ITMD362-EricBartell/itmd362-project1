@@ -1,27 +1,26 @@
-body{
-}
 #inputform{
   background-color: #4e6b9b;
   height: 0;
   transition: 0.5s;
   overflow: hidden;
   width: 100%; 
+  margin-top: 25px;  
 }
 
 #pitch{
   text-align: center;
-  font-size: 64px;
+  font-size: 24px;
   padding:20px;
   color: white;
   background-color: #429388;
-  width: 100%
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #formbutton{
   cursor:pointer;
-  padding: 20px;
   background-color: #6254a2;
-  font-size: 48px;
+  font-size: 16px;
   font-family: 'Cabin Condensed', sans-serif;
   color: white; 
   overflow: hidden;
@@ -29,6 +28,7 @@ body{
   font-weight: bold;
   text-align: center;
   width: 200px; 
+  margin-top: 25px;   
   margin-left: auto;
   margin-right: auto;
 }
@@ -61,6 +61,7 @@ input{
   font-size: 14px;    
   display: inline;
   float: right;
+  width: 32px;
 }
 
 #submit{
@@ -69,8 +70,10 @@ input{
   background-color: #6254a2;
   font-size: 24px;
   color: white;
-  margin-left: 32px;
   font-family: 'Cabin Condensed', sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 #submit:hover{
   background-color: #47388b;
