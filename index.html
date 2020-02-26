@@ -7,14 +7,13 @@
   <link rel="stylesheet" media="screen" href="css/reset.css" />
   <link rel="stylesheet" media="screen" href="css/style.css" />
   <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed|Montserrat&display=swap" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="script.js" async></script>
 </head>
 <body>
   <div id="formbutton" onclick="OpenForm()"> Click me! </div>
   <div id="inputform">
     <div id= "description">Fill out your info below</div>  
-    <form action="/action_page.php" method="get" action=#null>
+    <form name="signup" action="/action_page.php" method="get" action=#null onsubmit="return validate()">
       <label>Full Name: <input name="name" autocomplete="on" placeholder="John Doe"></label>
       <label>Email Address: <input type="email" name="email" autocomplete="on" placeholder="name@example.com"> </label>
       <label>Date of Birth: <input type="date" name="date" autocomplete="on"></label>
