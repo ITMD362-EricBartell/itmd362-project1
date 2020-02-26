@@ -4,13 +4,11 @@ body{
   background-color: #4e6b9b;
   height: 0;
   transition: 0.5s;
-  border-width: 5px;
-  border-color: black;
+  border: 12px solid #335185;
   overflow: hidden;
   display: inline-block;
   width: 650px; 
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 #formbutton{
@@ -39,6 +37,7 @@ body{
   text-align: center;
   font-size: 24px; 
   padding: 4px;
+  font-family: 'Cabin Condensed', sans-serif;
 
 }
 
@@ -53,9 +52,8 @@ label{
 input{
   border: 0;
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;  
-  display: inline-block;  
-  margin-left: 250px;  
+  font-size: 14px;    
+  float: left;
   display: inline;
 }
 
