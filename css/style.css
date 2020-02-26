@@ -4,11 +4,11 @@ body{
   background-color: #4e6b9b;
   height: 0;
   transition: 0.5s;
-  border: 12px solid #335185;
   overflow: hidden;
   display: inline-block;
   width: 650px; 
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #formbutton{
@@ -35,7 +35,7 @@ body{
   color: white;
   font-style: bold;
   text-align: center;
-  font-size: 24px; 
+  font-size: 32px; 
   padding: 4px;
   font-family: 'Cabin Condensed', sans-serif;
 
@@ -47,6 +47,7 @@ label{
   font-size: 16px;
   padding: 10px 20px; 
   display:block;
+  float: left;
 }
 
 input{
@@ -61,7 +62,7 @@ input{
   margin-top: 10px;
   border: 0;
   background-color: #6254a2;
-  font-size: 32px;
+  font-size: 24px;
   color: white;
   font-family: 'Cabin Condensed', sans-serif;
 }
