@@ -10,6 +10,7 @@
 #pitch{
   text-align: center;
   font-size: 24px;
+  font-weight: bold;
   padding:20px;
   color: white;
   background-color: #429388;
@@ -20,14 +21,13 @@
 #formbutton{
   cursor:pointer;
   background-color: #6254a2;
-  font-size: 16px;
+  font-size: 20px;
   font-family: 'Cabin Condensed', sans-serif;
   color: white; 
   overflow: hidden;
   height: 35px;
   font-weight: bold;
-  text-align: center;
-  width: 200px; 
+  text-align: center; 
   margin-top: 25px;   
   margin-left: auto;
   margin-right: auto;
@@ -41,7 +41,7 @@
   color: white;
   font-style: bold;
   text-align: center;
-  font-size: 32px; 
+  font-size: 20px; 
   padding: 4px;
   font-family: 'Cabin Condensed', sans-serif;
 
@@ -61,7 +61,8 @@ input{
   font-size: 14px;    
   display: inline;
   float: right;
-  width: 32px;
+  width: 150px;
+  height: 24px; 
 }
 
 #submit{
