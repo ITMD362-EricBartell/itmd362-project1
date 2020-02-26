@@ -5,10 +5,7 @@ body{
   height: 0;
   transition: 0.5s;
   overflow: hidden;
-  display: inline-block;
   width: 100%; 
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #formbutton{
@@ -69,11 +66,16 @@ input{
   background-color: #47388b;
 }
 /* Tablets */
-/*@media only screen and (min-width: 768px) {
-
-}*/
+@media only screen and (min-width: 768px) {
+  #inputform{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;    
+  }
+}
 /* Desktop */
-/*@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) {
 
-} */
+}
 
