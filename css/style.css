@@ -45,15 +45,15 @@ body{
 label{
   font-family: 'Montserrat', sans-serif;
   color: white;
-  display: inline;
   font-size: 16px;
-  padding: 2px; 
+  padding: 10px 20px; 
 }
 
 input{
   border: 0;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;  
+  display: inline-block;  
   margin-left: 250px;  
 }
 
@@ -63,6 +63,7 @@ input{
   background-color: #6254a2;
   font-size: 32px;
   color: white;
+  font-family: 'Cabin Condensed', sans-serif;
 }
 #submit:hover{
   background-color: #47388b;
