@@ -17,7 +17,8 @@ body{
   font-size: 32px;
   font-family: 'Cabin Condensed', sans-serif;
   color: red; 
-  transition: 1.0s;
+  overflow: hidden;
+  transition: 0.5s;
   font-weight: bold;
 }
 #description{
@@ -27,16 +28,21 @@ body{
 label{
   font-family: 'Montserrat', sans-serif;
   color: black;
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;  
 }
 
 input{
   border: 0;
-  display: block;  
-}
-textarea{
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  color: black;
+  font-size: 12px;  
 }
 
 #submit{
+  margin-top: 10px;
   border: 0;
 }
 #submit:hover{
