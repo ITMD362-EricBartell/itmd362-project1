@@ -5,6 +5,8 @@ body{
   background-color: #4e6b9b;
   height: 0;
   transition: 1.0s;
+  border-width: 5px;
+  border-color: black;
 }
 #formbutton{
   cursor:pointer;
