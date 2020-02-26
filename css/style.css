@@ -47,6 +47,7 @@ label{
   color: white;
   font-size: 16px;
   padding: 10px 20px; 
+  display:block;
 }
 
 input{
@@ -55,6 +56,7 @@ input{
   font-size: 14px;  
   display: inline-block;  
   margin-left: 250px;  
+  display: inline;
 }
 
 #submit{
