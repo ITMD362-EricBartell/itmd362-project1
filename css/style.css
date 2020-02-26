@@ -7,6 +7,7 @@ body{
   transition: 1.0s;
   border-width: 5px;
   border-color: black;
+  display: none;
 }
 
 #formbutton{
@@ -16,6 +17,8 @@ body{
   font-size: 32px;
   font-family: 'Cabin Condensed', sans-serif;
   color: red; 
+  transition: 1.0s;
+  font-weight: bold;
 }
 #description{
   color: red;
