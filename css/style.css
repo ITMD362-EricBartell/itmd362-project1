@@ -9,7 +9,7 @@ body{
   border-color: black;
   overflow: hidden;
   display: inline-block;
-  width: 70%; 
+  width: 650px; 
   margin-left: auto;
   margin-right: auto;
 }
@@ -37,10 +37,7 @@ label{
   font-family: 'Montserrat', sans-serif;
   color: white;
   display: inline;
-  text-align: center;
   font-size: 16px;
-  margin-left: auto; 
-  margin-right: auto;
   padding: 2px; 
 }
 
@@ -48,18 +45,19 @@ input{
   border: 0;
   font-family: 'Montserrat', sans-serif;
   display: block;
-  color: black;
   font-size: 14px;  
-  margin-left: auto; 
-  margin-right: auto;  
+  margin-left: 250px;  
 }
 
 #submit{
   margin-top: 10px;
   border: 0;
+  background-color: #6254a2;
+  font-size: 14px;
+  color: white;
 }
 #submit:hover{
-  background-color: red;
+  background-color: #47388b;
 }
 /* Tablets */
 /*@media only screen and (min-width: 768px) {
