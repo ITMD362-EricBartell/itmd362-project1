@@ -1,21 +1,29 @@
 body{
   background-color: white;
 }
-fieldset{
-
+form{
+  background-color: #4e6b9b;
+  height: 0;
 }
-label{
 
+h1{
+  font-family: 'Cabin Sketch', ;
+  color: white;
+}
+
+label{
+  font-family: 'Cabin', ;
+  color: white;
 }
 
 input{
-
+  border: 0;
 }
 textarea{
 }
 
 #submit{
-
+  border: 0;
 }
 #submit:hover{
 }
