@@ -6,7 +6,11 @@ body{
   height: 0;
   transition: 1.0s;
 }
-
+#formbutton{
+  cursor:pointer;
+  padding: 2px;
+  border-width: 1px;
+}
 h1{
   font-family: 'Cabin Sketch', ;
   color: white;
