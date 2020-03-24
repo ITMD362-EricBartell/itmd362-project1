@@ -1,5 +1,5 @@
 html{
-  background: url(itmd362-project1/images/background.jpg);   
+  background-image: url("../images/background.jpg");   
   transition: 1.0s;
 }
 
