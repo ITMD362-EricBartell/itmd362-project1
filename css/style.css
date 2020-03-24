@@ -74,13 +74,13 @@ input{
 #submit{
   border: 0;
   background-color: #6254a2;
-  font-size: 24px;
+  font-size: 30px;
   color: white;
   font-family: 'Cabin Condensed', sans-serif;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 250px;
+  width: 450px;
 }
 #submit:hover{
   background-color: #47388b;
