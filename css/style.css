@@ -64,23 +64,23 @@ label{
 input{
   border: 0;
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;    
+  font-size: 16px;    
   display: inline;
   float: right;
-  width: 150px;
-  height: 24px; 
+  width: 180px;
+  height: 29px; 
 }
 
 #submit{
   border: 0;
   background-color: #6254a2;
-  font-size: 30px;
+  font-size: 24px;
   color: white;
   font-family: 'Cabin Condensed', sans-serif;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 450px;
+  width: 250px;
 }
 #submit:hover{
   background-color: #47388b;
